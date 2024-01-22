@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,6 +59,32 @@
             </div>
         </div>
     </nav>
+    <!-- banner section -->
+    <div class="container mx-auto relative">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full h-[80vh]">
+                <img src="/images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full h-[80vh]">
+                <img src="/images/2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class=" bg-[#131318] text-white font-extrabold text-center w-auto mx-auto rounded-2xl p-6 absolute lg:w-[110vh] lg:right-5 lg:bottom-6">
+            <h3 class="text-3xl mb-6">Meet all the heroes from the field</h3>
+            <p class="opacity-80 font-medium"> Don't agree with our picks? Well, you get a five-minute major for
+                fighting.Here our list of all
+                time great hokey player....... </p>
+        </div>
+    </div>
 </body>
 
 </html>
